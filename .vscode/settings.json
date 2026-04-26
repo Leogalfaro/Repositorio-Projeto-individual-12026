@@ -1,0 +1,5 @@
+{
+    "smoothtype.autoReload": true,
+    "smoothtype.duration": 150,
+    "editor.cursorSmoothCaretAnimation": "on"
+}
