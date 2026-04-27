@@ -1,4 +1,5 @@
 body {
+    background-size: 100%;
     background-image: url("../assets/aesthetic-landscape-breath-of-the-wild-hd-riblcopx7wsstlgd.jpg");
     color: rgb(204, 167, 0);
 }
@@ -6,7 +7,7 @@ body {
 header {
     background-color: rgba(64, 96, 17, 0.438);
     height: 120px;
-    width: 1223px;
+    width: 1380px;
     margin-left: 10px ;
     display: flex;
     flex-direction: row;
@@ -24,16 +25,16 @@ main {
     backdrop-filter: blur(20px);
     background-color: rgba(64, 96, 17, 0.478);
     margin: 10px;
-    height: 440px;
+    height: 560px;
     width: 150px;
-    margin-top: -450px;
+    margin-top: -570px;
     margin-left: 10px;
 }
 
 .container2 {
     background-color: rgba(64, 96, 17, 0.416);
     margin: 10px;
-    height: 440px;
+    height: 560px;
     margin-left: 170px;
 
 }
@@ -115,7 +116,7 @@ main {
     width: 850px;
     height: 115px;
     margin: 10px;
-    margin-top: -440px;
+    margin-top: -490px;
     margin-left: 180px;
     
 }
@@ -139,32 +140,32 @@ main {
 
 .imagem1 {
     background-color: rgba(13, 92, 8, 0.595);
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     margin-top: -395px;
-    margin-left: 1050px;
+    margin-left: 1150px;
 }
 
 .imagem2 {
-    background-color: rgba(13, 92, 8, 0.595);
-    width: 150px;
-    height: 150px;
+    background-color: rgba(92, 8, 8, 0.595);
+    width: 170px;
+    height: 170px;
     margin-top: 70px;
-    margin-left: 1050px;
+    margin-left: 1150px;
 }
 
 .subimg{
     background-color: rgb(84, 117, 33);
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     background-size: 40px;
 
 }
 
 .subimg2 {
     background-color: rgb(84, 117, 33);
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     background-size: 40px;
     
 }
@@ -191,5 +192,18 @@ a:hover {
     color: rgb(204, 167, 0);
     font-family: Helvetica;
     font-size: 15px;
+}
+
+/* pagina para logados*/ 
+
+.sair {
+    margin: 10px;
+    width: 5px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 

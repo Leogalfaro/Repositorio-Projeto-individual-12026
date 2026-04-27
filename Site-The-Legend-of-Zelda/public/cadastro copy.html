@@ -6,86 +6,107 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>AquaTech | Cadastro</title>
+  <title> zelda Cadastro</title>
 
   <script src="./js/sessao.js"></script>
 
-  <link rel="stylesheet" href="./css/estilo.css" />
-  <link rel="icon" href="./assets/icon/favicon2.ico" />
+  <link rel="stylesheet" href="./css/cadastro.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
 </head>
 
-<body onload="listar()">
-  <!--header inicio-->
-  <div class="header">
-    <div class="container">
-      <h1 class="titulo">AquaTech</h1>
-      <ul class="navbar">
-        <li>
-          <a href="blog.html">Inicial</a>
-        </li>
-        <li>|</li>
-        <li>
-          <a href="login.html">Login</a>
-        </li>
-        <li class="agora">
-          <a href="#">Cadastro</a>
-        </li>
-      </ul>
+<body>
+
+
+
+  <div class="alerta_erro">
+    <div class="card_erro" id="cardErro">
+      <span id="mensagem_erro"></span>
     </div>
   </div>
-  <!--header fim-->
 
-  <div class="login">
-    <div class="alerta_erro">
-      <div class="card_erro" id="cardErro">
-        <span id="mensagem_erro"></span>
+  <header>
+    <a href="blog.html"><img src="./assets/Zelda_Logo.svg.png" class="logo"></a>
+  </header>
+  <main>
+    <div class="bloco"> <br>
+      <div class="texto">
+        <h1>Cadastro</h1>
+      </div>
+      <div class="formulario">
+
+        <div class="texto2">
+          Nome: <br> <input type="text" id="nome_input" class="ipt" placeholder="Apenas seu primeiro nome!">
+        </div> <br> <br>
+        <div class="texto2">
+          E-mail: <br> <input type="text" id="email_input" class="ipt" placeholder="meuemail@provedor.com">
+        </div> <br> <br>
+        <div class="texto2">
+          Senha: <br> <input type="password" id="senha_input" class="ipt" placeholder="******************">
+        </div> <br><br>
+        <div class="texto2">
+          Confirme sua senha: <br> <input type="password" id="confirmacao_senha_input" class="ipt"
+            placeholder="******************">
+        </div>
+
+        <div>
+          <a href="login.html">Possui conta? Entre já!</a>
+        </div> <br>
+
+        <button onclick="cadastrar()">Cadastrar</button>
+
       </div>
     </div>
-    <div class="container">
+    <footer>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="container">
       <div class="card card-cadastro">
-        <h2>Bem-vindo!</h2>
-        <div class="formulario">
-          <!--
+        <div class="">
+          
                          Para inserir mais um campo, copie uma das inputs abaixo.
                          Assim que inserir vá para o script abaixo.
-                     -->
+                     
         
-          <div class="campo">
+          <div class="">
             <span>Nome:</span>
             <input id="nome_input" type="text" placeholder="Seu nome" />
           </div>
-          <div class="campo">
+          <div class="">
             <span>E-mail:</span>
             <input id="email_input" type="text" placeholder="meuemail@provedor.com" />
           </div>
-          <div class="campo">
+          <div class="">
             <span>Senha:</span>
             <input id="senha_input" type="password" placeholder="******" />
           </div>
-          <div class="campo">
+          <div class="">
             <span>Confirmação da Senha:</span>
             <input id="confirmacao_senha_input" type="password" placeholder="******" />
           </div>
-          <button class="botao" onclick="cadastrar()">Cadastrar</button>
-        </div>
-        <div id="div_aguardar" class="loading-div">
-          <img src="./assets/circle-loading.gif" id="loading-gif" />
-        </div>
+          <button class="" onclick="cadastrar()">Cadastrar</button>
+        </div> -->
 
-        <div id="div_erros_login"></div>
-      </div>
-    </div>
-  </div>
 
-  <!--footer inicio-->
-  <div class="footer">
-    <div class="container">
-      <h4>Feito com amor por aluno &hearts; SPTech &copy; 2023</h4>
-      <span class="version">v1.0.0</span>
+    <div id="div_erros_login"></div>
     </div>
-  </div>
-  <!--footer fim-->
+    </div>
+  </main>
 </body>
 
 </html>
@@ -126,7 +147,7 @@
     }
 
     // Verificando se o código de ativação é de alguma empresa cadastrada
-    for (let i = 0; i < listaEmpresasCadastradas.length; i++) {
+    /*for (let i = 0; i < listaEmpresasCadastradas.length; i++) {
       if (listaEmpresasCadastradas[i].codigo_ativacao == codigoVar) {
         idEmpresaVincular = listaEmpresasCadastradas[i].id
         console.log("Código de ativação válido.");
@@ -135,8 +156,8 @@
         cardErro.style.display = "block";
         mensagem_erro.innerHTML = "(Mensagem de erro para código inválido)";
         finalizarAguardar();
-      }
-    }
+      }*/
+    //}
 
     // Enviando o valor da nova input
     fetch("/usuarios/cadastrar", {
@@ -181,7 +202,7 @@
   }
 
   // Listando empresas cadastradas 
-  function listar() {
+  /*function listar() {
     fetch("/empresas/listar", {
       method: "GET",
     })
@@ -202,5 +223,5 @@
 
   function sumirMensagem() {
     cardErro.style.display = "none";
-  }
+  }*/
 </script>
