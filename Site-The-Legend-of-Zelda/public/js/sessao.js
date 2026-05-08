@@ -11,7 +11,7 @@ function validarSessao() {
         window.location = "../login.html";
     }
 }
-/*
+
 function limparSessao() {
     sessionStorage.clear();
     window.location = "../login.html";
@@ -32,5 +32,5 @@ function finalizarAguardar(texto) {
         divErrosLogin.style.display = "flex";
         divErrosLogin.innerHTML = texto;
     }
-}*/
+}
 

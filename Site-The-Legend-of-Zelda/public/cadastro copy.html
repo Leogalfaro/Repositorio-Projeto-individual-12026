@@ -25,7 +25,7 @@
   </div>
 
   <header>
-    <a href="blog.html"><img src="./assets/Zelda_Logo.svg.png" class="logo"></a>
+    <a href="index.html"><img src="./assets/Zelda_Logo.svg.png" class="logo"></a>
   </header>
   <main>
     <div class="bloco"> <br>
@@ -36,28 +36,24 @@
 
         <div class="texto2">
           Nome: <br> <input type="text" id="nome_input" class="ipt" placeholder="Apenas seu primeiro nome!">
-        </div> <br> <br>
+        </div> <br> 
         <div class="texto2">
-          E-mail: <br> <input type="text" id="email_input" class="ipt" placeholder="meuemail@provedor.com">
-        </div> <br> <br>
+          E-mail: <br> <input type="email" id="email_input" class="ipt" placeholder="meuemail@provedor.com">
+        </div> <br> 
         <div class="texto2">
           Senha: <br> <input type="password" id="senha_input" class="ipt" placeholder="******************">
-        </div> <br><br>
-        <div class="texto2">
-          Confirme sua senha: <br> <input type="password" id="confirmacao_senha_input" class="ipt"
-            placeholder="******************">
-        </div>
-
-        <div>
-          <a href="login.html">Possui conta? Entre já!</a>
         </div> <br>
+        <div class="texto2">
+          Confirme sua senha: <br> <input type="password" id="confirmacao_senha_input" class="ipt" placeholder="******************">
+        </div> <br><br>
 
         <button onclick="cadastrar()">Cadastrar</button>
-
+        <div>
+          <a href="login.html">Possui conta? Entre já!</a>
+        </div>
       </div>
     </div>
-    <footer>
-    </footer>
+
 
 
 
@@ -126,7 +122,7 @@
     var senhaVar = senha_input.value;
     var confirmacaoSenhaVar = confirmacao_senha_input.value;
     var codigoVar = codigo_input.value;
-    var idEmpresaVincular
+    //var idEmpresaVincular
 
     // Verificando se há algum campo em branco
     if (
@@ -171,7 +167,7 @@
         nomeServer: nomeVar,
         emailServer: emailVar,
         senhaServer: senhaVar,
-        idEmpresaVincularServer: idEmpresaVincular
+       // idEmpresaVincularServer: idEmpresaVincular
       }),
     })
       .then(function (resposta) {
