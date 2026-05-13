@@ -1,5 +1,5 @@
 body {
-    background-image: url('../assets/aesthetic-landscape-breath-of-the-wild-hd-riblcopx7wsstlgd.jpg');
+    background-color: blue;
     color: rgb(204, 167, 0);
     width: 1000px;
     height: 670px;
@@ -8,11 +8,14 @@ body {
 }
 
 main {
-    background-color: none;
+    background-color: red;
     width: 1425px;
     height: 670px;
 }
 
+a{
+    color: rgb(204, 167, 0);
+}
 
 a:hover {
     color: rgb(204, 167, 0);
@@ -39,8 +42,7 @@ a:hover {
 }
 
 header {
-    background-color: rgba(64, 96, 17, 0.478);
-    backdrop-filter: blur(4px);
+    background-color: rgb(0, 251, 255);
     height: 120px;
     width: 1405px;
     margin-left: 10px;
@@ -51,7 +53,7 @@ header {
 
 .container {
     backdrop-filter: blur(20px);
-    background-color:rgba(64, 96, 17, 0.478);
+    background-color: rgb(93, 17, 96);
     margin: 10px;
     height: 520px;
     width: 150px;
@@ -66,7 +68,7 @@ header {
 }
 
 .container2{
-    background-color: rgba(64, 96, 17, 0.478);
+    background-color: brown;
     width: 1235px;
     height: 520px;
     margin-left: 180px;
@@ -76,13 +78,13 @@ header {
 
 
 .img{
-    background-color: rgba(64, 96, 17, 0.478);
+    background-color: blue;
     height: 160px;
     width: 200px;
 }
 
 .subimg2 {
-    background-color: rgba(84, 117, 33, 0.478);
+    background-color: rgb(84, 117, 33);
     width: 180px;
     height: 160px;
     background-size: 40px;
@@ -90,7 +92,7 @@ header {
 }
 
 .pai{
-    background-color: rgba(64, 96, 17, 0.478);
+    background-color: rgb(0, 251, 255);
     height: 200px;
     width: 200px;
     margin-left: 250px;
@@ -98,7 +100,7 @@ header {
 }
 
 .pai2{
-    background-color: rgba(64, 96, 17, 0.478);
+    background-color: rgb(0, 251, 255);
     height: 200px;
     width: 200px;
     margin-left: 650px;
@@ -106,7 +108,7 @@ header {
 }
 
 .pai3{
-    background-color: rgba(64, 96, 17, 0.478);
+    background-color: rgb(0, 251, 255);
     height: 200px;
     width: 200px;
     margin-left: 1050px;

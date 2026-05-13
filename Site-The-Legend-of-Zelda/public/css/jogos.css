@@ -3,7 +3,7 @@ body {
     color: rgb(204, 167, 0);
     width: 1000px;
     height: 670px;
-    overflow: hidden;
+    /*overflow: ;*/
 
 }
 
@@ -13,6 +13,9 @@ main {
     height: 670px;
 }
 
+a{
+    
+}
 
 a:hover {
     color: rgb(204, 167, 0);
@@ -51,12 +54,21 @@ header {
 
 .container {
     backdrop-filter: blur(20px);
-    background-color:rgba(64, 96, 17, 0.478);
+    background-color: rgba(64, 96, 17, 0.478);
     margin: 10px;
-    height: 520px;
+    height: 530px;
     width: 150px;
-    margin-top: 15px;
+    margin-top: -540px;
     margin-left: 10px;
+}
+
+.container2 {
+    
+    background-color: rgba(64, 96, 17, 0.478);
+    margin: 10px;
+    height: 530px;
+    margin-left: 170px;
+
 }
 
 .logo {
@@ -65,24 +77,18 @@ header {
     height: 80%;
 }
 
-.container2{
-    background-color: rgba(64, 96, 17, 0.478);
-    width: 1235px;
-    height: 520px;
-    margin-left: 180px;
-    margin-top: -530px;
-}
 
 
 
 .img{
     background-color: rgba(64, 96, 17, 0.478);
     height: 160px;
-    width: 200px;
+    width: 210px;
 }
 
 .subimg2 {
-    background-color: rgba(84, 117, 33, 0.478);
+    background-color: rgba(64, 96, 17, 0.478);
+
     width: 180px;
     height: 160px;
     background-size: 40px;
@@ -92,24 +98,35 @@ header {
 .pai{
     background-color: rgba(64, 96, 17, 0.478);
     height: 200px;
-    width: 200px;
+    width: 210px;
     margin-left: 250px;
     margin-top: -400px;
 }
 
 .pai2{
     background-color: rgba(64, 96, 17, 0.478);
+    
     height: 200px;
-    width: 200px;
-    margin-left: 650px;
+    width: 210px;
+    margin-left: 550px;
     margin-top: -200px;
 }
 
 .pai3{
     background-color: rgba(64, 96, 17, 0.478);
+    backdrop-filter: blur(4px);
     height: 200px;
-    width: 200px;
-    margin-left: 1050px;
+    width: 210px;
+    margin-left: 850px;
+    margin-top: -200px;
+}
+
+.pai4{
+    background-color: rgba(64, 96, 17, 0.478);
+    backdrop-filter: blur(4px); 
+    height: 200px;
+    width: 210px;
+    margin-left: 1150px;
     margin-top: -200px;
 }
 

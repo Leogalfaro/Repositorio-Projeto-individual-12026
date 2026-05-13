@@ -26,16 +26,16 @@ main {
     backdrop-filter: blur(20px);
     background-color: rgba(64, 96, 17, 0.478);
     margin: 10px;
-    height: 560px;
+    height: 530px;
     width: 150px;
-    margin-top: -570px;
+    margin-top: -540px;
     margin-left: 10px;
 }
 
 .container2 {
     background-color: rgba(64, 96, 17, 0.416);
     margin: 10px;
-    height: 560px;
+    height: 530px;
     margin-left: 170px;
 
 }
@@ -173,6 +173,8 @@ main {
     background-size: 40px;
 
 }
+
+
 
 a:hover {
     color: rgb(204, 167, 0);
