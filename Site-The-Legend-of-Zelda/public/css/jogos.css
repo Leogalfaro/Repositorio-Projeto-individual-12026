@@ -40,8 +40,16 @@ a:hover {
     font-family: Helvetica;
     font-size: 15px;
 }
+.texto4{ 
+    margin-left: -1100px;
+    margin-top: 20px;
+    text-align: flex-start;
+    color: brown;
+    font-family: Helvetica;
+    font-size: 20px;
+}
 
-header {
+.header {
     background-color: rgba(64, 96, 17, 0.478);
     backdrop-filter: blur(4px);
     height: 120px;
@@ -75,6 +83,7 @@ header {
     width: 300px;
     padding: 10px;
     height: 80%;
+    margin-left: -650px;
 }
 
 

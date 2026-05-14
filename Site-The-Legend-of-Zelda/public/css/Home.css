@@ -110,6 +110,14 @@ main {
     width: 300px;
     padding: 10px;
     height: 80%;
+    margin-left: -650px;
+}
+
+.logo2 {
+    width: 300px;
+    padding: 10px;
+    height: 80%;
+    
 }
 
 .pai {
@@ -198,6 +206,15 @@ a:hover {
     color: rgb(204, 167, 0);
     font-family: Helvetica;
     font-size: 15px;
+}
+
+.texto4{ 
+    margin-left: -1100px;
+    margin-top: 20px;
+    text-align: flex-start;
+    color: brown;
+    font-family: Helvetica;
+    font-size: 20px;
 }
 
 /* pagina para logados*/
