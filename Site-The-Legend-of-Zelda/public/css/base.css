@@ -1,0 +1,217 @@
+body {
+    background-image: url('../assets/aesthetic-landscape-breath-of-the-wild-hd-riblcopx7wsstlgd.jpg');
+    color: rgb(204, 167, 0);
+    width: 1000px;
+    height: 670px;
+    /*overflow: ;*/
+
+}
+
+main {
+    background-color: none;
+    width: 1425px;
+    height: 670px;
+}
+
+a{
+    
+}
+
+a:hover {
+    color: rgb(204, 167, 0);
+}
+
+.texto {
+    text-align: center;
+    color: rgb(204, 167, 0);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.texto2 {
+    text-align: justify;
+    color: rgb(204, 167, 0);
+    font-family: Helvetica;
+    font-size: 18px;
+}
+
+.texto3 {
+    text-align: flex-start;
+    color: rgb(204, 167, 0);
+    font-family: Helvetica;
+    font-size: 15px;
+}
+.texto4{ 
+    margin-left: -1100px;
+    margin-top: 20px;
+    text-align: flex-start;
+    color: brown;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+.header {
+    background-color: rgba(64, 96, 17, 0.478);
+    backdrop-filter: blur(4px);
+    height: 120px;
+    width: 1405px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    backdrop-filter: blur(20px);
+    background-color: rgba(64, 96, 17, 0.478);
+    margin: 10px;
+    height: 530px;
+    width: 150px;
+    margin-top: -540px;
+    margin-left: 10px;
+}
+
+.container2 {
+    
+    background-color: rgba(64, 96, 17, 0.478);
+    margin: 10px;
+    height: 530px;
+    margin-left: 170px;
+
+}
+
+.logo {
+    width: 300px;
+    padding: 10px;
+    height: 80%;
+    margin-left: -650px;
+}
+
+
+
+
+.img{
+    background-color: rgba(64, 96, 17, 0.478);
+    height: 160px;
+    width: 210px;
+}
+
+.subimg2 {
+    background-color: rgba(64, 96, 17, 0.478);
+
+    width: 180px;
+    height: 160px;
+    background-size: 40px;
+
+}
+
+.pai{
+    background-color: rgb(64, 96, 17);
+    height: 200px;
+    width: 210px;
+    margin-left: 200px;
+    margin-top: -480px;
+}
+
+.pai2{
+    background-color: rgb(64, 96, 17);
+    height: 200px;
+    width: 210px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.pai3{
+    background-color: rgb(64, 96, 17);
+    backdrop-filter: blur(4px);
+    height: 455px;
+    width: 970px;
+    margin-left: 425px;
+    margin-top: -451px;
+    overflow-y: auto ;
+}
+
+.pai4{
+    background-color: rgba(64, 96, 17, 0.478);
+    backdrop-filter: blur(4px); 
+    height: 200px;
+    width: 210px;
+    margin-left: 1150px;
+    margin-top: -200px;
+}
+
+.cadastro {
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: rgb(204, 167, 0);
+
+}
+
+.login {
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.personagens {
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.jogos {
+    margin: 10px;
+    width: 5px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.curiosidades {
+    margin: 10px;
+    width: 5px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.sobreMim {
+    margin: 10px;
+    width: 5px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sair {
+    margin: 10px;
+    width: 5px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
